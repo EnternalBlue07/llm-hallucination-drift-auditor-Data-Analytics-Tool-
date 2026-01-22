@@ -1,12 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+TrustAI is an AI & Data Authenticity Governance platform designed to audit
+both structured datasets and AI/LLM-generated outputs before they are trusted
+in real-world decision-making.
 
-# Run and deploy your AI Studio app
+The system detects:
+- AI hallucinations and fabricated claims
+- Data and feature drift using PSI and statistical analysis
+- Domain violations (e.g. impossible values, invalid identifiers)
+- Over-trust risks caused by naive score averaging
 
-This contains everything you need to run your app locally.
+Unlike traditional monitoring tools, TrustAI uses a governance-first
+architecture with veto gates, ensuring that critical safety failures
+cannot be compensated by high performance in other metrics.
 
-View your app in AI Studio: https://ai.studio/apps/drive/18nGkHx6iL98mTjLj-h2dC0iw__cnrZHT
+Key Features:
+- Hallucination detection with grounding and contradiction analysis
+- Data quality and drift analysis with explainable metrics
+- Non-compensatory Trust Score with governance overrides
+- Clear risk badges: SAFE, REVIEW, UNSAFE, INSUFFICIENT DATA
+- Human-readable audit reports with recommended remediation actions
+- Interactive dashboard with exportable audit reports
+
+This project demonstrates production-oriented thinking around AI reliability,
+risk governance, and responsible deployment of data-driven systems.
 
 ## Run Locally
 
