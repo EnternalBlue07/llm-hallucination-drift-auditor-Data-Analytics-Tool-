@@ -1,0 +1,5 @@
+{
+  "name": "TrustAI Audit Platform",
+  "description": "A production-grade AI audit platform for verifying data authenticity, detecting drift, and flagging LLM hallucinations using the Gemini API.",
+  "requestFramePermissions": []
+}
